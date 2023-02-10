@@ -14,6 +14,7 @@ const Footer = (props) => {
 
   const [screenWidth, setScreenWidth] = useState(0);
 
+  let year = new Date().getFullYear();
   useEffect(() => {
     setScreenWidth(window.innerWidth);
     function handleResize() {
@@ -26,7 +27,7 @@ const Footer = (props) => {
   return (
     <div className="footer">
       <p>
-        Copyright © Zenith Ski Shop - 2023. {languageToUse.rights}
+        Copyright © Zenith Ski Shop - {year}. {languageToUse.rights}
         {screenWidth < 768 ? <br /> : "-"}
         <Link to="/legal">{languageToUse.legal}</Link>{" "}
         <a href="https://vts-webdesign.com" target="_blank">
