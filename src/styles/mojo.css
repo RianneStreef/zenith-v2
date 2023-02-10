@@ -1,0 +1,126 @@
+.hero-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("../images/mojo-hero.jpeg");
+  background-size: cover;
+  background-position: 75% 50%;
+  background-repeat: none;
+  width: 100vw;
+  height: 30vw;
+}
+
+.mojo-hero-logo {
+  width: 35%;
+  margin-left: 20px;
+}
+
+.mojo h1 {
+  color: var(--color-highlight);
+  font-family: "IBM Plex Mono Bold Italic";
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.mojo-icons {
+  background-color: #fff;
+  color: var(--color-text-gray);
+  display: flex;
+  flex-direction: column;
+}
+
+.mojo-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.mojo-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.mojo-icon h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mojo-icon p {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.mojo-text {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.mojoP4 {
+  padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .mojo h1 {
+    margin: 50px 100px;
+  }
+  .mojo-icons {
+    padding: 50px 100px;
+    flex-direction: row;
+    font-size: 15px;
+  }
+
+  .mojo-icon {
+    width: 20vw;
+  }
+
+  .mojo-icon h2 {
+    font-size: 20px;
+  }
+
+  .mojo-icon p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .mojo-text {
+    padding: 50px 100px;
+  }
+
+  .mojo-text-image {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+
+  .mojo-hero-logo {
+    width: 50%;
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .mojo-hero-logo {
+    width: 80%;
+  }
+  .mojo-icon h2 {
+    font-size: 30px;
+  }
+
+  .mojo-icon p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .mojo-text {
+    flex-direction: row;
+  }
+
+  .mojo-text > * {
+    width: 50%;
+  }
+}

@@ -1,0 +1,39 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px 20px;
+}
+
+.intro-title {
+  text-transform: uppercase;
+}
+
+.intro-text-p {
+  font-size: var(--font-size-mobile);
+  line-height: var(--line-height-mobile);
+  margin-top: 20px;
+}
+
+.intro-text-p span {
+  font-size: var(--font-size-mobile);
+}
+
+@media only screen and (min-width: 768px) {
+  .intro {
+    flex-direction: row;
+    margin: 100px;
+  }
+  .intro-title {
+    font-size: 45px;
+  }
+  .intro-text-p {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .intro-text-p span {
+    font-size: 40px;
+  }
+}

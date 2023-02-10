@@ -1,0 +1,116 @@
+.header {
+  position: fixed;
+  background-color: var(--color-background);
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.links {
+  display: flex;
+  margin: 0;
+}
+
+.links li {
+  display: flex;
+}
+
+.header-logo {
+  width: 100%;
+  margin: 20px;
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-name {
+  font-family: "Nobl";
+  color: #fff;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: var(--color-text-dark);
+  text-decoration: none;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "IBM Plex Mono Bold";
+  font-size: 15px;
+  padding: 0 10px;
+  transition: color 500ms ease-in-out;
+}
+
+.nav-link:hover {
+  color: #fff;
+  transition: color 500ms ease-in-out;
+}
+
+.nav-link:active {
+  color: #fff;
+  transition: color 500ms ease-in-out;
+}
+
+.nav-link-yellow {
+  color: var(--color-highlight);
+  transition: color 500ms ease-in-out;
+}
+
+.nav-link-yellow:visited {
+  color: var(--color-highlight);
+}
+
+.nav-link-yellow:hover {
+  color: #fff;
+  transition: color 500ms ease-in-out;
+}
+
+.active {
+  color: #fff;
+}
+
+.logo-link {
+  text-align: right;
+  width: 130px;
+}
+
+.header ul {
+  list-style-type: none;
+}
+
+.hidden-mobile {
+  display: none;
+}
+
+@media only screen and (min-width: 769px) {
+  .header-name {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header {
+    padding: 0 50px;
+  }
+  .hidden-mobile {
+    display: flex;
+  }
+  .hidden-desktop {
+    display: none;
+  }
+  .set-language {
+    margin: auto;
+    margin-right: 40px;
+  }
+}

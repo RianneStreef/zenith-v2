@@ -1,0 +1,237 @@
+:root {
+  --color-highlight: #ffda0a;
+  --color-shadow: #eaeaea;
+  --color-text: #fff;
+  --color-text-gray: rgb(117, 117, 117);
+  --color-background: #000;
+  --color-background-light: rgb(59, 58, 58);
+
+  --font-size-mobile: 20px;
+  --font-size-desktop: 35px;
+  --line-height-mobile: 30px;
+  --line-height-desktop: 40px;
+}
+
+/* Futura for p 
+ titles en IBM Mono Bold
+IBM Plex Mono light Italic menu et usp 
+*/
+
+@font-face {
+  font-family: "Futura";
+  src: local("Futura"),
+    url(../fonts/futura/futura\ light\ bt.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Futura Bold";
+  src: local("Futura Bold"), url(../fonts/futura/futur.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "IBM Plex Mono Thin";
+  src: local("IBM Plex Mono Thin"),
+    url(../fonts/ibm-plex-mono/IBMPlexMono-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "IBM Plex Mono Bold";
+  src: local("IBM Plex Mono Bold"),
+    url(../fonts/ibm-plex-mono/IBMPlexMono-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "IBM Plex Mono light Italic";
+  src: local("IBM Plex Mono light Italic"),
+    url(../fonts/ibm-plex-mono/IBMPlexMono-LightItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "IBM Plex Mono Bold Italic";
+  src: local("IBM Plex Mono Bold Italic"),
+    url(../fonts/ibm-plex-mono/IBMPlexMono-BoldItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Nobl";
+  src: local("Nobl"), url(../fonts/NOBL____.ttf) format("truetype");
+}
+
+html {
+  font-size: calc(60% + 0.8vmin);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-size: 1rem;
+}
+
+body {
+  font-family: "IBM Plex Sans";
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  font-family: "IBM Plex Mono Bold";
+}
+
+h2 {
+  font-weight: 700;
+  margin: 0;
+  font-family: "IBM Plex Mono Bold";
+  color: var(--color-highlight);
+  font-size: 28px;
+}
+
+h4 {
+  font-family: "IBM Plex Mono Bold Italic";
+  text-transform: uppercase;
+}
+
+p,
+li,
+a,
+span {
+  margin: 0;
+  padding: 0;
+  font-family: "Futura";
+  color: var(--color-text-text);
+  font-size: var(--font-size-mobile);
+  line-height: var(--line-height-mobile);
+}
+
+p {
+  margin-top: 20px;
+}
+
+/* a {
+  text-decoration: none;
+} */
+
+.bold {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.gray-text {
+  color: var(--color-text-gray);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.logo {
+  width: 30px;
+  margin: 20px;
+}
+
+.flag {
+  width: 25px;
+  margin: 0 10px;
+}
+
+.opaque {
+  opacity: 100%;
+}
+
+.fade {
+  opacity: 50%;
+}
+
+.invisible-button {
+  border: none;
+  background-color: transparent;
+  width: 20px;
+  margin: auto 10px;
+}
+
+.header-placeholder {
+  height: 60px;
+}
+
+.book-link {
+  position: fixed;
+  top: 65px;
+  right: 12px;
+  z-index: 900;
+  width: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+  height: fit-content;
+}
+
+.button-location-en-ligne {
+  width: 70%;
+  transition: opacity 500ms;
+}
+
+.transparent {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.home {
+  width: 100vw;
+  height: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+@media only screen and (min-width: 768px) {
+  h1,
+  h2 {
+    font-size: 40px;
+  }
+
+  p,
+  li,
+  a,
+  span {
+    font-size: 25px;
+    color: var(--color-text-gray);
+    line-height: var(--line-height-desktop);
+  }
+
+  .book-link {
+    top: 70px;
+  }
+
+  .flag {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .button-location-en-ligne {
+    width: 100%;
+  }
+  .book-link {
+    bottom: 50px;
+    right: 50px;
+    top: auto;
+  }
+}
