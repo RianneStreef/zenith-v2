@@ -16,7 +16,11 @@ const LegalPage = (props) => {
     : (languageToUse = content.french);
   return (
     <>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "fr",
+        }}
+      >
         <title>{languageToUse.indexTitle}</title>
         <meta name="robots" content="noindex" />
         <meta name="description" content={languageToUse.metaDescription} />

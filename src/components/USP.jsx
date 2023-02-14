@@ -12,6 +12,8 @@ import bootfittingIntroImageEN from "../images/USP-BOOT-EN.jpg";
 import mojoIntroImageEN from "../images//USP-MOJO-EN.jpg";
 import servicesIntroImageEN from "../images//USP-SERVICE-EN.jpg";
 
+import { StaticImage } from "gatsby-plugin-image";
+
 const USP = (props) => {
   let { language, languageToUse, pathname, setPathname } = props;
 
@@ -23,14 +25,14 @@ const USP = (props) => {
       <div className="usp-intro">
         <Link to="/bootfitting" className="usp-link-container">
           {language === "english" ? (
-            <img
-              src={bootfittingIntroImageEN}
+            <StaticImage
+              src="../images/USP-BOOT-EN.jpg"
               alt="bootfitting"
               className="usp-intro-image"
             />
           ) : (
-            <img
-              src={bootfittingIntroImageFR}
+            <StaticImage
+              src="../images/USP-BOOT-FR.jpg"
               alt="bootfitting"
               className="usp-intro-image"
             />
@@ -47,14 +49,14 @@ const USP = (props) => {
           onClick={() => setPathname("/mojo")}
         >
           {language === "english" ? (
-            <img
-              src={mojoIntroImageEN}
+            <StaticImage
+              src="../images//USP-MOJO-EN.jpg"
               alt="ski mojo"
               className="usp-intro-image"
             />
           ) : (
-            <img
-              src={mojoIntroImageFR}
+            <StaticImage
+              src="../images//USP-MOJO-FR.jpg"
               alt="ski mojo"
               className="usp-intro-image"
             />
@@ -66,14 +68,14 @@ const USP = (props) => {
       <div className="usp-intro ">
         <Link to="/services" className="usp-link-container">
           {language === "english" ? (
-            <img
-              src={servicesIntroImageEN}
+            <StaticImage
+              src="../images//USP-SERVICE-EN.jpg"
               alt=""
               className="usp-intro-image"
             />
           ) : (
-            <img
-              src={servicesIntroImageFR}
+            <StaticImage
+              src="../images//USP-SERVICE-FR.jpg"
               alt=""
               className="usp-intro-image"
             />
