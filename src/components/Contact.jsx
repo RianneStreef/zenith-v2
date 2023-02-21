@@ -24,6 +24,7 @@ const Contact = (props) => {
       <div className="contact-blocks">
         <div className="google-map-iframe">
           <iframe
+            title="google map"
             className="iframe-google"
             id="gmap_canvas"
             src="https://maps.google.com/maps?q=%20Immeuble%20Le%20Z%C3%A9nith%20%20Place%20Caron%20Val%20Thorens%20%2073440%20Les%20Belleville&t=&z=17&ie=UTF8&iwloc=&output=embed"
