@@ -12,8 +12,8 @@ const Intro = (props) => {
   return (
     <div className="intro">
       <div className="intro-text">
-        <h2 className="intro-title">{languageToUse.introTitle1}</h2>
-        <h2 className="intro-title">{languageToUse.introTitle2}</h2>
+        <h2 className="intro-title-1">{languageToUse.introTitle1}</h2>
+        <h2 className="intro-title-2">{languageToUse.introTitle2}</h2>
         <p className="intro-text-p">
           <span>{languageToUse.introText1}</span>
           <span className="bold">{languageToUse.introText1B}</span>

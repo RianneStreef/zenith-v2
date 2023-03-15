@@ -6,8 +6,14 @@
   margin: 50px 20px;
 }
 
-.intro-title {
+.intro-title-1 {
   text-transform: uppercase;
+  font-size: 9.8vw;
+}
+
+.intro-title-2 {
+  text-transform: uppercase;
+  font-size: 6vw;
 }
 
 .intro-text-p {
@@ -25,9 +31,15 @@
     flex-direction: row;
     margin: 100px;
   }
-  .intro-title {
-    font-size: 45px;
+
+  .intro-title-1 {
+    font-size: 8vw;
   }
+
+  .intro-title-2 {
+    font-size: 5vw;
+  }
+
   .intro-text-p {
     font-size: 40px;
     line-height: 50px;
@@ -35,5 +47,14 @@
 
   .intro-text-p span {
     font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .intro-title-1 {
+    font-size: 8.9vw;
+  }
+  .intro-title-2 {
+    font-size: 3vw;
   }
 }

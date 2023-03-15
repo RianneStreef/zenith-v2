@@ -70,6 +70,7 @@ const IndexPage = function (props) {
         ></script>
       </Helmet>
       <div className="header-placeholder" />
+
       <Hero language={language} languageToUse={languageToUse} />
       <Intro language={language} languageToUse={languageToUse} />
       <USP

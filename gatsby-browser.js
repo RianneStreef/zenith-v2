@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 
-export function wrapPageElement({ element, props }) {
-  const Layout = element.type.Layout ?? React.Fragment;
+// export function wrapPageElement({ element, props }) {
+//   const Layout = element.type.Layout ?? React.Fragment;
 
-  return <Layout {...props}>{element}</Layout>;
-}
+//   return <Layout {...props}>{element}</Layout>;
+// }

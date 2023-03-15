@@ -8,6 +8,10 @@ const intakeInfo = {
   highlightColor: "#ff00ff",
 
   taxNumber: "38848588000016",
+
+  location: "Val Thorens",
+  mainActivityEn: "ski and snowboard rental",
+  mainActivityFr: "location skis et snowboards",
 };
 
 export default intakeInfo;

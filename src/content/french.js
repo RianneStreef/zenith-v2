@@ -22,7 +22,7 @@ export const french = {
 
   moreInfo: "Plus d'informations",
 
-  introTitle1: "BIENVENUE SUR LE SITE DE ZENITH SKI SHOP",
+  introTitle1: "ZENITH SKI SHOP",
   introTitle2: "LOCATION DE SKIS ET SNOWBOARDS A VAL THORENS",
   introText1: "Le magasin ",
   introText1B: "Zenith Ski Shop à Val Thorens",
@@ -64,7 +64,7 @@ export const french = {
 
   ourServices: "Nos services",
 
-  explanationTitle: "ZENITH SKI SHOP - LOCATION SKIS ET SNOWBOARDS",
+  explanationTitle: "ZENITH SKI SHOP - bootfitting - services - conseils",
 
   explanationText1: "Pour la location de skis / snowboard / chaussures ",
   explanationText2:

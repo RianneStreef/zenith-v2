@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 
 import "../styles/Footer.css";
 import { content } from "../content/languages";
+import intakeInfo from "../content/intake";
 
 const Footer = (props) => {
   let { language, languageToUse } = props;
@@ -27,9 +28,12 @@ const Footer = (props) => {
   return (
     <div className="footer">
       <p>
-        Copyright © Zenith Ski Shop - {year}. {languageToUse.rights}
-        {screenWidth < 768 ? <br /> : "-"}
-        <Link to="/legal">{languageToUse.legal}</Link>{" "}
+        Copyright © {intakeInfo.companyName} -
+        {language === "french" ? <> {intakeInfo.mainActivityFr} - </> : null}
+        {language === "english" ? <> {intakeInfo.mainActivityEn} - </> : null}
+        {intakeInfo.location} - {year}.
+        {/* {screenWidth < 768 ? <br /> : "-"} */}
+        <Link to="/legal"> {languageToUse.legal}</Link>{" "}
         <a href="https://vts-webdesign.com" target="_blank">
           - VTS Webdesign
         </a>
