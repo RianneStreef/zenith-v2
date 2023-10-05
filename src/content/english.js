@@ -206,6 +206,11 @@ export const english = {
   savoie: "Tourism in Savoy",
   pasChere: "Montagne pas cher",
 
+  cookieHeader: "WE VALUE YOUR PRIVACY!",
+  cookieText: "This website uses cookies to evaluate our traffic.",
+  cookieAccept: "I accept!",
+  cookieDecline: "I decline..",
+
   rights: "All rights reserved",
   legal: "Disclaimer",
 };

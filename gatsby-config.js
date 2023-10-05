@@ -26,17 +26,6 @@ module.exports = {
     },
 
     {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: ["G-CN0JQ68GS4"],
-        pluginConfig: {
-          head: true,
-        },
-        enableWebVitalsTracking: true,
-        respectDNT: true,
-      },
-    },
-    {
       resolve: "gatsby-plugin-layout",
       options: {
         component: require.resolve("./src/components/Layout.jsx"),

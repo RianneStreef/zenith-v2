@@ -15,15 +15,42 @@ import Insta from "../components/Insta";
 import Explanation from "../components/Explanation";
 import Contact from "../components/Contact";
 
+import ReactGA from "react-ga4";
+import CookieConsent, {
+  getCookieConsentValue,
+  Cookies,
+} from "react-cookie-consent";
+
 const IndexPage = function (props) {
   let { language, languageToUse, pathname, setPathname } = props;
   let countryCode = "unknown";
 
-  language === "english" ? (languageToUse = content.english) : null;
-  language === "french" ? (languageToUse = content.french) : null;
-  language === "dutch" ? (languageToUse = content.dutch) : null;
+  languageToUse = content.french;
+
+  const initGA = (id) => {
+    // if (process.env.NODE_ENV === "production") {
+    console.log("InitGA");
+    ReactGA.initialize(id);
+    //}
+  };
+
+  const handleAcceptCookie = () => {
+    initGA("G-3V9M5ZKEC4");
+  };
+
+  const handleDeclineCookie = () => {
+    Cookies.remove("_ga");
+    Cookies.remove("_gat");
+    Cookies.remove("_gid");
+  };
 
   useEffect(() => {
+    const isConsent = getCookieConsentValue();
+
+    if (isConsent === "true") {
+      handleAcceptCookie();
+    }
+
     console.log(window.navigator.language);
     if (window.navigator.language === "he") {
       window.location.href = "./home";
@@ -69,6 +96,17 @@ const IndexPage = function (props) {
           data-usrc
         ></script>
       </Helmet>
+      <CookieConsent
+        enableDeclineButton
+        onAccept={handleAcceptCookie}
+        onDecline={handleDeclineCookie}
+        buttonText={languageToUse.cookieAccept}
+        declineButtonText={languageToUse.cookieDecline}
+      >
+        <p className="cookie-text-header">{languageToUse.cookieHeader}</p>
+        <p className="cookie-text">{languageToUse.cookieText}</p>
+      </CookieConsent>
+
       <div className="header-placeholder" />
 
       <Hero language={language} languageToUse={languageToUse} />
