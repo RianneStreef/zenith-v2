@@ -8,6 +8,8 @@ import intakeInfo from "../content/intake";
 
 import "../styles/legal.css";
 
+import Consent from "../components/Consent";
+
 const LegalPage = (props) => {
   let { language, languageToUse } = props;
 
@@ -27,6 +29,8 @@ const LegalPage = (props) => {
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={`${intakeInfo.domainName}/legal`} />
       </Helmet>
+      <Consent language={language} languageToUse={languageToUse} />
+
       <div className="header-placeholder" />
       <div className="legal">
         <h2>Informations légales</h2>

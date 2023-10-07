@@ -19,6 +19,8 @@ import mojoIntroImage from "../../images/modjoIntroImage.jpg";
 
 import logoHero from "../../images/logo-hero.svg";
 
+import Consent from "../../components/Consent";
+
 const BootfittingPage = function (props) {
   let { language, languageToUse, pathname, setPathname } = props;
 
@@ -37,6 +39,8 @@ const BootfittingPage = function (props) {
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={`${intakeInfo.domainName}/mojo`} />
       </Helmet>
+      <Consent language={language} languageToUse={languageToUse} />
+
       <div className="header-placeholder" />
       <div className="hero-3">
         <Link to="/">

@@ -21,6 +21,8 @@ import bootfittingProblem7Image from "../../images/bootfitting/hallux.svg";
 import bootfittingProblem8Image from "../../images/bootfitting/malleole.svg";
 import bootfittingProblem9Image from "../../images/bootfitting/meta.svg";
 
+import Consent from "../../components/Consent";
+
 const BootfittingPage = function (props) {
   let { language, languageToUse } = props;
 
@@ -42,6 +44,8 @@ const BootfittingPage = function (props) {
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={`${intakeInfo.domainName}/bootfitting/`} />
       </Helmet>
+      <Consent language={language} languageToUse={languageToUse} />
+
       <div className="header-placeholder" />
       <Hero2 />
       <h1 className="bootfitting-title">{languageToUse.bootfittingTitle}</h1>

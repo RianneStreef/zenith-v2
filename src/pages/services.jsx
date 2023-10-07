@@ -18,6 +18,8 @@ import service2Image from "../images/service2-square.jpg";
 import service3Image from "../images/service3-square.jpg";
 import service4Image from "../images/service4-square.jpg";
 
+import Consent from "../components/Consent";
+
 const ServicesPage = function (props) {
   let { language, languageToUse } = props;
 
@@ -87,6 +89,8 @@ const ServicesPage = function (props) {
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={`${intakeInfo.domainName}/services`} />
       </Helmet>
+      <Consent language={language} languageToUse={languageToUse} />
+
       <div className="header-placeholder" />
       <Hero2 />
       <div className="services">

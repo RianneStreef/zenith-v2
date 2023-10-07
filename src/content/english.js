@@ -207,7 +207,7 @@ export const english = {
   pasChere: "Montagne pas cher",
 
   cookieHeader: "WE VALUE YOUR PRIVACY!",
-  cookieText: "This website uses cookies to evaluate our traffic.",
+  cookieText: "This website uses cookies to analyze our traffic.",
   cookieAccept: "I accept!",
   cookieDecline: "I decline..",
 
