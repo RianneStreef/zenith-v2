@@ -36,7 +36,7 @@ const Contact = (props) => {
             <p className="address address-bold">
               {languageToUse.addressContent1}
             </p>
-            <p className="address"> {languageToUse.addressContent2}</p>
+            {/* <p className="address"> {languageToUse.addressContent2}</p> */}
             <p className="address"> {languageToUse.addressContent3}</p>
             <p className="address"> {languageToUse.addressContent4}</p>
           </div>
