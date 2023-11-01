@@ -63,8 +63,8 @@ const Header = (props) => {
           <Link
             to={language === "french" ? "/#contact" : "/en/#contact"}
             className={`nav-link ${
-              pathname === "https://zenith-vt.netlify.app/#contact/" ||
-              pathname === "https://zenith-skishop.com/#contact/"
+              pathname === "https://zenith-vt.netlify.app/#contact" ||
+              pathname === "https://zenith-skishop.com/#contact"
                 ? "active"
                 : ""
             }`}
