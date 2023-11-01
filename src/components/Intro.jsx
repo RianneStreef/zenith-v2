@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "gatsby";
+
 import { content } from "../content/languages";
 
 import "../styles/Intro.css";
@@ -18,7 +20,9 @@ const Intro = (props) => {
           <span>{languageToUse.introText1}</span>
           <span className="bold">{languageToUse.introText1B}</span>
           <span>{languageToUse.introText2}</span>
-          <span className="bold">{languageToUse.introText2B}</span>
+          <Link to="/bootfitting">
+            <span className="bold">{languageToUse.introText2B}</span>
+          </Link>
           <span>{languageToUse.introText3}</span>
           <span className="bold">{languageToUse.introText3B}</span>
           <span>{languageToUse.introText4}</span>

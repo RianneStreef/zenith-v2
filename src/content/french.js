@@ -27,7 +27,7 @@ export const french = {
   introText1: "Le magasin ",
   introText1B: "Zenith Ski Shop à Val Thorens",
   introText2: " est le ",
-  introText2B: "spécialiste du bootfitting ",
+  introText2B: "spécialiste du bootfitting",
   introText3:
     " nous adaptons vos chaussures de skis en fonction de votre morphologie) depuis plus de 30 ans dans Les 3 Vallées. ",
   introText3B: "Seul magasin encore indépendant",

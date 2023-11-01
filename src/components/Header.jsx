@@ -41,8 +41,8 @@ const Header = (props) => {
           <Link
             to={language === "french" ? "/bootfitting" : "/en/bootfitting"}
             className={`nav-link ${
-              pathname === "https://zenith-vt.netlify.app/bootfitting" ||
-              pathname === "https://www.zenith-skishop.com/bootfitting"
+              pathname === "https://zenith-vt.netlify.app/bootfitting/" ||
+              pathname === "https://www.zenith-skishop.com/bootfitting/"
                 ? "active"
                 : ""
             }`}
@@ -52,8 +52,8 @@ const Header = (props) => {
           <Link
             to={language === "french" ? "/services" : "/en/services"}
             className={`nav-link ${
-              pathname === "https://zenith-vt.netlify.app/services" ||
-              pathname === "https://www.zenith-skishop.com/services"
+              pathname === "https://zenith-vt.netlify.app/services/" ||
+              pathname === "https://www.zenith-skishop.com/services/"
                 ? "active"
                 : ""
             }`}
@@ -63,8 +63,8 @@ const Header = (props) => {
           <Link
             to={language === "french" ? "/#contact" : "/en/#contact"}
             className={`nav-link ${
-              pathname === "https://zenith-vt.netlify.app/#contact" ||
-              pathname === "https://zenith-skishop.com/#contact"
+              pathname === "https://zenith-vt.netlify.app/#contact/" ||
+              pathname === "https://zenith-skishop.com/#contact/"
                 ? "active"
                 : ""
             }`}

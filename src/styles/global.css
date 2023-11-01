@@ -129,6 +129,10 @@ p {
   color: #fff;
 }
 
+a .bold {
+  text-decoration: underline;
+}
+
 .gray-text {
   color: var(--color-text-gray);
 }
