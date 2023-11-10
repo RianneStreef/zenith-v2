@@ -32,7 +32,11 @@ const Contact = (props) => {
         </div>
         <div className="contact-info">
           <div>
-            <img src={location} alt="" className="contact-icon" />
+            <img
+              src={location}
+              alt={languageToUse.altImageAddress}
+              className="contact-icon"
+            />
             <p className="address address-bold">
               {languageToUse.addressContent1}
             </p>
@@ -41,11 +45,19 @@ const Contact = (props) => {
             <p className="address"> {languageToUse.addressContent4}</p>
           </div>
           <p>
-            <img src={telephone} alt="" className="contact-icon" />
+            <img
+              src={telephone}
+              alt={languageToUse.altImageEmail}
+              className="contact-icon"
+            />
             <a href="tel:0033479000528"> {languageToUse.telContent}</a>
           </p>
           <p>
-            <img src={email} alt="" className="contact-icon" />
+            <img
+              src={email}
+              alt={languageToUse.altImagePhone}
+              className="contact-icon"
+            />
             <a href="mailto:zenith-skishop@wanadoo.fr">
               zenith-skishop@wanadoo.fr
             </a>

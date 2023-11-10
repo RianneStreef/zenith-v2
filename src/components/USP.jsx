@@ -70,13 +70,13 @@ const USP = (props) => {
           {language === "english" ? (
             <StaticImage
               src="../images//USP-SERVICE-EN.jpg"
-              alt=""
+              alt="ski service Val Thorens"
               className="usp-intro-image"
             />
           ) : (
             <StaticImage
               src="../images//USP-SERVICE-FR.jpg"
-              alt=""
+              alt="service ski Val Thorens"
               className="usp-intro-image"
             />
           )}

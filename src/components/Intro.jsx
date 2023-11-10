@@ -20,14 +20,23 @@ const Intro = (props) => {
           <span>{languageToUse.introText1}</span>
           <span className="bold">{languageToUse.introText1B}</span>
           <span>{languageToUse.introText2}</span>
-          <Link to="/bootfitting">
-            <span className="bold">{languageToUse.introText2B}</span>
-          </Link>
+          {language === "english" ? (
+            <Link to="/en/bootfitting">
+              <span className="bold">{languageToUse.introText2B}</span>
+            </Link>
+          ) : (
+            <Link to="/bootfitting">
+              <span className="bold">{languageToUse.introText2B}</span>
+            </Link>
+          )}
           <span>{languageToUse.introText3}</span>
           <span className="bold">{languageToUse.introText3B}</span>
           <span>{languageToUse.introText4}</span>
         </p>
-        <p className="intro-text-p">{languageToUse.introText5}</p>
+        <p className="intro-text-p">
+          {languageToUse.introText5}
+          <Link to="/services"> {languageToUse.introText5b}</Link>
+        </p>
         <p className="intro-text-p bold">{languageToUse.introText6}</p>
       </div>
     </div>

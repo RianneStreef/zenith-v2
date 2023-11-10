@@ -2,9 +2,9 @@ export const french = {
   language: "french",
 
   indexTitle:
-    "Zenith Ski Shop - Location ski Val Thorens - Spécialiste Bootfitting.",
+    "Zenith Ski Shop - Location ski Val Thorens - Spécialiste Bootfitting. ",
   metaDescription:
-    "Location ski Val Thorens. Reservez votre location de skis / snowboard à Val Thorens en ligne -20%. Zenith Ski Shop specialiste du bootfitting",
+    "Location ski Val Thorens. Reservez votre location de skis / snowboard à Val Thorens en ligne -20%. Zenith Ski Shop specialiste du bootfitting. Service de ski et snowboard. ",
   metaKeywords:
     "Location ski Val Thorens, val thorens ski location, location chaussure ski val thorens, ski val thorens, bootfitting val thorens, snowscoot val thorens, location snowboard val thorens",
 
@@ -13,6 +13,8 @@ export const french = {
   services: "Le Service Zenith",
   book: "Location en ligne",
   contact: "Contact",
+
+  altImageLogo: "Zenith Ski Shop, magasin de ski, Val Thorens",
 
   heroTitle: "LOCATION SKIS ET SNOWBOARDS",
   underTitle: "Bootfitter de père en fils depuis 1985",
@@ -33,8 +35,8 @@ export const french = {
   introText3B: "Seul magasin encore indépendant",
   introText4:
     " à Val Thorens, nous mettons l'accent sur le service et la qualité pour rendre votre séjour toujours plus agréable.",
-  introText5:
-    "Zenith Ski Shop, c'est aussi la vente, la location et l'entretien de vos skis et snowboards.",
+  introText5: "Zenith Ski Shop, c'est aussi la vente, la location et ",
+  introText5b: "l'entretien de vos skis et snowboards.",
   introText6:
     "Toute l'équipe de Zenith Ski Shop à Val Thorens vous souhaite une bonne glisse et un agréable séjour dans la meilleure station de ski de France.",
 
@@ -47,6 +49,10 @@ export const french = {
   email: "Email",
   message: "Message",
   send: "Send",
+
+  altImageAddress: "Adresse magasin de ski Val Thorens",
+  altImageEmail: "Contactez votre magasin de ski à Val Thorens par mail",
+  altImagePhone: "Contactez votre magasin de ski à Val Thorens par téléphone",
 
   addressContent1: "Zenith Ski Shop",
   addressContent2: "Immeuble Le Zénith",
@@ -144,6 +150,8 @@ export const french = {
   metaDescriptionServices:
     "Adaptations de vos chaussures, entretien skis et snowboards, solutions de confort (semelles et gants chauffants, verres polarisés,...)",
   servicesTitle: "LES SERVICES ZENITH SKI SHOP",
+
+  serviceImage: "Service ski Val Thorens",
 
   service1Title: "SERVICE CHAUSSURES",
   service1Text1:

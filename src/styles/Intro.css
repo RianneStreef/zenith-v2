@@ -26,6 +26,10 @@
   font-size: var(--font-size-mobile);
 }
 
+.intro-text-p a {
+  font-size: var(--font-size-mobile);
+}
+
 @media only screen and (min-width: 768px) {
   .intro {
     flex-direction: row;
@@ -46,6 +50,10 @@
   }
 
   .intro-text-p span {
+    font-size: 40px;
+  }
+
+  .intro-text-p a {
     font-size: 40px;
   }
 }

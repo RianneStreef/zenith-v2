@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import { content } from "../content/languages";
 
 import "../styles/Explanation.css";
@@ -14,7 +15,11 @@ const Explanation = (props) => {
       <h2 className="intro-title">{languageToUse.explanationTitle}</h2>
       <p>
         <span className="explanation-text">
-          {languageToUse.explanationText1}
+          {language === "english" ? (
+            <Link to="/en/services">{languageToUse.explanationText1}</Link>
+          ) : (
+            <Link to="/services">{languageToUse.explanationText1}</Link>
+          )}
         </span>
         <span className="explanation-text bold">
           {languageToUse.explanationText2}

@@ -9,6 +9,14 @@
   color: var(--color-text);
 }
 
+.explanation-text span {
+  font-size: var(--font-size-mobile);
+}
+
+.explanation-text a {
+  font-size: var(--font-size-mobile);
+}
+
 @media only screen and (min-width: 768px) {
   .explanation {
     padding: 100px;
@@ -18,5 +26,12 @@
     font-size: var(--font-size-desktop);
     line-height: var(--line-height-desktop);
     color: var(--color-text-gray);
+  }
+  .explanation-text span {
+    font-size: var(--font-size-desktop);
+  }
+
+  .explanation-text a {
+    font-size: var(--font-size-desktop);
   }
 }

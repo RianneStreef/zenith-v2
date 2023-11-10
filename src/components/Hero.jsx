@@ -20,7 +20,11 @@ const Hero = (props) => {
           <h1 className="hero-title">{languageToUse.heroTitle}</h1>
           <h2 className="hero-title-2">{languageToUse.underTitle}</h2>
         </div>
-        <img src={logoHero} alt="logo" className="hero-logo" />
+        <img
+          src={logoHero}
+          alt={languageToUse.altImageLogo}
+          className="hero-logo"
+        />
       </div>
     </div>
   );

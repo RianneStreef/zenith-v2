@@ -4,7 +4,7 @@ export const english = {
   indexTitle:
     "Zenith Ski Shop - Val Thorens ski rental - Bootfitting specialist",
   metaDescription:
-    "Val Thorens ski rental. Hire your skis / snowboard in Val Thorens -20% online. Zenith Ski Shop bootfitting specialist",
+    "Val Thorens ski rental. Hire your skis / snowboard in Val Thorens, -20% online. Zenith Ski Shop, bootfitting specialist. We can also service your skis and snowboards. ",
   metaKeywords:
     " Val Thorens ski rental, val thorens ski hire, val thorens snowboard rental, val thorens snowscoot, val thorens bootfitting, ski rental val thorens, ski boots val thorens",
 
@@ -13,6 +13,8 @@ export const english = {
   services: "Zenith Services",
   book: "Online ski rental",
   contact: "Contact",
+
+  altImageLogo: "Zenith Ski Shop, ski shop, Val Thorens",
 
   heroTitle: "Ski and Snowboard rental",
   underTitle: "Bootfitters from father to son since 1985",
@@ -32,8 +34,8 @@ export const english = {
   introText3B: "The last independent ski shop in Val Thorens,",
   introText4:
     "  we focus on service and quality to moke your stay more enjoyable.",
-  introText5:
-    "Zenith Ski Shop also sells, rents and maintains your skis and snowboards.",
+  introText5: "Zenith Ski Shop also sells, rents and ",
+  introText5b: "maintains your skis and snowboards.",
   introText6:
     "The entire team od Zenith Ski Shop wishes you great skiing and a pleasant stay in the best ski resort in France.",
 
@@ -45,6 +47,10 @@ export const english = {
   email: "Email",
   message: "Message",
   send: "Send",
+
+  altImageAddress: "Adresse ski shop in Val Thorens",
+  altImageEmail: "Contact your skishop in Val Thorens by mail",
+  altImagePhone: "Contact your skishop in Val Thorens by telephone",
 
   addressContent1: "Zenith Ski Shop",
   addressContent2: "Immeuble Le Zénith",
@@ -142,6 +148,8 @@ export const english = {
 
   metaDescriptionServices:
     "Adaptation of your shoes, skis and snowboard maintenance, comfort solutions (heated soles and gloves, polarized lenses, etc.",
+
+  serviceImage: "Ski service Val Thorens",
 
   service1Title: "BOOTS SERVICE",
   service1Text1:

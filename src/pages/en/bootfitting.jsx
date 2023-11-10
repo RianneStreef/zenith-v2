@@ -56,7 +56,7 @@ const BootfittingPage = function (props) {
           <div className="bootfitting-slider">
             <img
               src={bootfittingSlider}
-              alt=""
+              alt="Bootfitting Val Thorens"
               className="bootfitting-slider-image-1"
             />
             {/* <img
@@ -86,7 +86,7 @@ const BootfittingPage = function (props) {
             <div className="bootfitting-problem-image-container">
               <img
                 src={bootfittingProblem1Image}
-                alt=""
+                alt="Bootfitting Val Thorens"
                 className="bootfitting-problem-image"
               />
             </div>
@@ -99,7 +99,7 @@ const BootfittingPage = function (props) {
             <div className="bootfitting-problem-image-container">
               <img
                 src={bootfittingProblem2Image}
-                alt=""
+                alt="Bootfitting Val Thorens"
                 className="bootfitting-problem-image"
               />
             </div>
@@ -112,7 +112,7 @@ const BootfittingPage = function (props) {
             <div className="bootfitting-problem-image-container">
               <img
                 src={bootfittingProblem3Image}
-                alt=""
+                alt="Bootfitting Val Thorens"
                 className="bootfitting-problem-image"
               />
             </div>
@@ -125,7 +125,7 @@ const BootfittingPage = function (props) {
             <div className="bootfitting-problem-image-container">
               <img
                 src={bootfittingProblem4Image}
-                alt=""
+                alt="Bootfitting Val Thorens"
                 className="bootfitting-problem-image"
               />
             </div>
@@ -138,7 +138,7 @@ const BootfittingPage = function (props) {
             <div className="bootfitting-problem-image-container">
               <img
                 src={bootfittingProblem5Image}
-                alt=""
+                alt="Bootfitting Val Thorens"
                 className="bootfitting-problem-image"
               />
             </div>
@@ -151,7 +151,7 @@ const BootfittingPage = function (props) {
             <div className="bootfitting-problem-image-container">
               <img
                 src={bootfittingProblem6Image}
-                alt=""
+                alt="Bootfitting Val Thorens"
                 className="bootfitting-problem-image"
               />
             </div>
@@ -164,7 +164,7 @@ const BootfittingPage = function (props) {
             <div className="bootfitting-problem-image-container">
               <img
                 src={bootfittingProblem7Image}
-                alt=""
+                alt="Bootfitting Val Thorens"
                 className="bootfitting-problem-image"
               />
             </div>
@@ -177,7 +177,7 @@ const BootfittingPage = function (props) {
             <div className="bootfitting-problem-image-container">
               <img
                 src={bootfittingProblem8Image}
-                alt=""
+                alt="Bootfitting Val Thorens"
                 className="bootfitting-problem-image"
               />
             </div>
@@ -190,7 +190,7 @@ const BootfittingPage = function (props) {
             <div className="bootfitting-problem-image-container">
               <img
                 src={bootfittingProblem9Image}
-                alt=""
+                alt="Bootfitting Val Thorens"
                 className="bootfitting-problem-image"
               />
             </div>

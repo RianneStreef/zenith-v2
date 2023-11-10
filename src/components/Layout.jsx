@@ -91,7 +91,7 @@ const Layout = ({ children }) => {
             src={buttonLocationEnLigne}
             className="button-location-en-ligne transparent"
             id="location-en-ligne"
-            alt="reservation en ligne"
+            alt="location de ski à Val Thorens en ligne"
           />
         </a>
       ) : (
@@ -104,7 +104,7 @@ const Layout = ({ children }) => {
             src={buttonOnlineRental}
             className="button-location-en-ligne transparent"
             id="location-en-ligne"
-            alt="online rental"
+            alt="online ski rental Val Thorens"
           />
         </a>
       )}

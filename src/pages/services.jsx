@@ -99,7 +99,7 @@ const ServicesPage = function (props) {
           <div className="service service-1">
             <img
               src={service1Image}
-              alt=""
+              alt={languageToUse.serviceImage}
               className="service-image-left"
               id="service-image-1"
             />
@@ -118,7 +118,7 @@ const ServicesPage = function (props) {
           <div className="service service-2">
             <img
               src={service2Image}
-              alt=""
+              alt={languageToUse.serviceImage}
               className="service-image-right"
               id="service-image-2"
             />
@@ -138,7 +138,7 @@ const ServicesPage = function (props) {
           <div className="service service-1">
             <img
               src={service3Image}
-              alt=""
+              alt={languageToUse.serviceImage}
               className="service-image-left"
               id="service-image-3"
             />
@@ -154,7 +154,7 @@ const ServicesPage = function (props) {
           <div className="service service-2">
             <img
               src={service4Image}
-              alt=""
+              alt={languageToUse.serviceImage}
               className="service-image-right"
               id="service-image-4"
             />
