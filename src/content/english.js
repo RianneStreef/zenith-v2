@@ -75,8 +75,7 @@ export const english = {
     "we offer equipment corresponding to your needs and level. ",
   explanationText3:
     "Our rental fleet is updated every year. Our rental shoes are dried and sanitized after each outing and, if necessary, we personalize the ones you rent. ",
-  explanationText4:
-    "You can change your skis during your stay and if your accommodation is for from the slopes, we can keep your skis overnight after a day of skiing. ",
+  explanationText4: "You can change your skis during your stay. ",
   explanationText5:
     "To make your stay even easier and not waste time when you arrive in Val Thorens, we offer the possibility to rent your equipment online. ",
   explanationText6:
