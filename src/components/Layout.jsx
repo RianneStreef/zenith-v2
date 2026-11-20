@@ -68,7 +68,7 @@ const Layout = ({ children }) => {
       languageToUse,
       pathname,
       setPathname,
-    })
+    }),
   );
   return (
     <div className="layout">
@@ -96,7 +96,7 @@ const Layout = ({ children }) => {
         </a>
       ) : (
         <a
-          href=" https://zenith-skishop.notresphere.com/en-gb/rental-gear"
+          href="https://www.notresphere.com/en/destination/val-thorens/shops/zenith-skishop"
           target="blank"
           className="book-link"
         >

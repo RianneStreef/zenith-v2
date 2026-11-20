@@ -112,7 +112,7 @@ const Navbar = (props) => {
             </a>
           ) : (
             <a
-              href=" https://www.notresphere.com/en/destination/val-thorens/shops/zenith-skishop"
+              href="https://www.notresphere.com/en/destination/val-thorens/shops/zenith-skishop"
               target="blank"
               className="nav-link nav-link-yellow"
               onClick={() => setOpen(!open)}
