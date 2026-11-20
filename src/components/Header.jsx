@@ -82,7 +82,7 @@ const Header = (props) => {
             </a>
           ) : (
             <a
-              href=" https://zenith-skishop.notresphere.com/en-gb/rental-gear"
+              href="https://www.notresphere.com/en/destination/val-thorens/shops/zenith-skishop"
               target="blank"
               className="nav-link nav-link-yellow"
             >
